@@ -3,7 +3,7 @@ import { FeedbackType, feedbackTypes } from "..";
 import { CloseButton } from "../../CloseButton";
 import { ScreenshotButton } from "../ScreenshotButton";
 import {FormEvent, useState} from 'react'
-import { api } from "../../../lib/Api";
+import { api } from "../../../lib/api";
 import { Loading } from "../../Loading";
 
 interface FeedbackContentStepProps{
